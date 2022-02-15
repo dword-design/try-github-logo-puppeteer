@@ -1,3 +1,11 @@
+## [1.0.2](https://github.com/dword-design/try-github-logo-puppeteer/compare/v1.0.1...v1.0.2) (2022-02-15)
+
+
+### Bug Fixes
+
+* foo ([3f57fdc](https://github.com/dword-design/try-github-logo-puppeteer/commit/3f57fdc4f097898d51e01cbab33002239649d62c))
+* foo ([d6c2d57](https://github.com/dword-design/try-github-logo-puppeteer/commit/d6c2d57cc25eb6ae888f3f17f78d2419ebdca703))
+
 ## [1.0.1](https://github.com/dword-design/try-github-logo-puppeteer/compare/v1.0.0...v1.0.1) (2022-02-15)
 
 
