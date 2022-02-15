@@ -13,7 +13,7 @@ export default {
     const page = await browser.newPage()
     try {
       await download(
-        'https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png?fit=32%2C32',
+        'https://github.blog/wp-content/uploads/2019/01/cropped-github-favicon-512.png', // ?fit=32%2C32',
         'src',
         { filename: 'file.png' }
       )
