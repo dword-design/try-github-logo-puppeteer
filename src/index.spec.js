@@ -1,6 +1,7 @@
 import puppeteer from '@dword-design/puppeteer'
 import download from 'download'
 import fileUrl from 'file-url'
+import { readFile } from 'fs-extra'
 
 export default {
   async valid() {
@@ -14,7 +15,8 @@ export default {
         { filename: 'file.png' }
       )
       await page.goto(fileUrl(require.resolve('./index.html')))
-      expect(await page.screenshot()).toMatchImageSnapshot(this)
+      // expect(await page.screenshot()).toMatchImageSnapshot(this)
+      expect(await readFile('src/file.png')).toMatchImageSnapshot(this)
     } finally {
       await page.close()
       await browser.close()
