@@ -1,0 +1,34 @@
+{
+  "name": "try-github-logo-puppeteer",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "dword-design/try-github-logo-puppeteer",
+  "funding": "https://github.com/sponsors/dword-design",
+  "license": "MIT",
+  "author": "Sebastian Landwehr <info@sebastianlandwehr.com>",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "checkUnknownFiles": "base checkUnknownFiles",
+    "commit": "base commit",
+    "dev": "base dev",
+    "lint": "base lint",
+    "prepare": "base prepare",
+    "prepublishOnly": "base prepublishOnly",
+    "test": "base test",
+    "test:raw": "base test:raw"
+  },
+  "devDependencies": {
+    "@dword-design/base": "^8.6.15",
+    "@dword-design/puppeteer": "^5.0.7",
+    "file-url": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
