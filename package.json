@@ -23,6 +23,7 @@
   "devDependencies": {
     "@dword-design/base": "^8.6.15",
     "@dword-design/puppeteer": "^5.0.7",
+    "download": "^8.0.0",
     "file-url": "^3.0.0"
   },
   "engines": {
